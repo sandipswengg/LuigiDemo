@@ -14,8 +14,6 @@ class ReadS3Data(luigi.Task):
         s3 = boto3.resource("s3")
         bucket = s3.Bucket(self.S3_BUCKET_NAME)
 
-        #print(bucket)
-
         with self.output().open("w") as outfile:
             for obj in bucket.objects.all():
                 key = obj.key
