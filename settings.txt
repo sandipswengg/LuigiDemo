@@ -1,0 +1,5 @@
+PYTHONPATH to be set to the folders where all the Module files (*.py) are placed
+
+PYTHONPATH='.' [OR]
+
+SET the PYTHONPATH in Bashrc file
