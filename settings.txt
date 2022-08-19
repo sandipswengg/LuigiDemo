@@ -1,5 +1,11 @@
-PYTHONPATH to be set to the folders where all the Module files (*.py) are placed
+A) Setting up the ENV variable
 
-PYTHONPATH='.' [OR]
+    PYTHONPATH to be set to the folders where all the Module files (*.py) are placed
 
-SET the PYTHONPATH in Bashrc file
+    PYTHONPATH='.' [OR]
+
+    SET the PYTHONPATH in Bashrc file
+
+B) Running a luigi server
+    > luigid --background --pidfile <PATH_TO_PIDFILE> --logdir <PATH_TO_LOGDIR> --state-path <PATH_TO_STATEFILE>
+

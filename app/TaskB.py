@@ -5,6 +5,7 @@ class ReadS3Data(luigi.Task):
     S3_BUCKET_NAME = "glue-demonstration"
     LOCAL_DIR = "../OUTDIR"
 
+
     def output(self):
         out_file_path = "%s/S3_Response.txt" %(self.LOCAL_DIR)
 

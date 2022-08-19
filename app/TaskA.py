@@ -3,7 +3,6 @@ from TaskB import ReadS3Data
 
 class WriteLocalFileTask(luigi.ExternalTask):
     LOCAL_DIR = "../OUTDIR"
-
     """
         This will write the output
         The data will be generated from the run()
